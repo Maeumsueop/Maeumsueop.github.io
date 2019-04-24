@@ -233,7 +233,7 @@ font-family: 'Hi Melody', cursive;
 	position: relative;
 	color: white;
 	background-size: cover;
-  height: 100vh;
+  min-height: 100%;
 	background-position: top, center bottom;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://pingendo.com/site-assets/cover.jpg);
 	background-repeat: repeat, repeat;
