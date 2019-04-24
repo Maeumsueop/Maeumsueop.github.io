@@ -188,7 +188,6 @@ font-weight: 100;
 
 .kokkiri-title {
 font-family: 'Hi Melody', cursive;
-  font-size: 7em;
 }
 
 .section-fade-in {
@@ -212,7 +211,7 @@ font-family: 'Hi Melody', cursive;
 .section-fade-out {
 	position: relative;
 	color: white;
-  height: 100vh;
+  height: 100%;
 	background-size: cover;
 	background-position: top, center bottom;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://pingendo.com/site-assets/cover.jpg);
@@ -234,6 +233,7 @@ font-family: 'Hi Melody', cursive;
 	position: relative;
 	color: white;
 	background-size: cover;
+  height: 100vh;
 	background-position: top, center bottom;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://pingendo.com/site-assets/cover.jpg);
 	background-repeat: repeat, repeat;
