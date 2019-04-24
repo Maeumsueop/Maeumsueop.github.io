@@ -338,7 +338,7 @@ h6, .h6 {
   font-size: 0.85rem; }
 
 .lead {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 300; }
 
 .display-1 {
@@ -6523,25 +6523,6 @@ html, body {
     content: ' ';
     background: linear-gradient(#111, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.2)); }
 
-@media screen and (min-width: 1024px) {
-  .section-fade-out {
-    position: relative;
-    color: white;
-    height: 100vh;
-    background-size: cover;
-    background-position: top, center bottom;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://pingendo.com/site-assets/cover.jpg);
-    background-repeat: repeat, repeat;
-    box-shadow: 0px 0px 0px  black; }
-    .section-fade-out:before {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 100%;
-      content: ' ';
-      /* background: linear-gradient(transparentize($body-bg, 1.0),transparentize($body-bg, 0.5), $body-bg); */ } }
-
 .section-fade-out {
   position: relative;
   color: white;
@@ -6551,23 +6532,6 @@ html, body {
   background-repeat: repeat, repeat;
   box-shadow: 0px 0px 0px  black; }
   .section-fade-out:before {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    /* background: linear-gradient(transparentize($body-bg, 1.0),transparentize($body-bg, 0.5), $body-bg); */ }
-
-.section-fade-out2 {
-  position: relative;
-  color: white;
-  background-size: cover;
-  background-position: top, center bottom;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://pingendo.com/site-assets/cover.jpg);
-  background-repeat: repeat, repeat;
-  box-shadow: 0px 0px 0px  black; }
-  .section-fade-out2:before {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -6613,15 +6577,6 @@ mark.secondary {
   display: block;
   margin: auto;
   align-self: center; }
-
-.row-centered {
-  text-align: center;
-  display: table-row; }
-
-.col-centered {
-  display: table-cell;
-  float: none;
-  vertical-align: top; }
 
 .right-block {
   display: block;
